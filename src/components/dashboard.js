@@ -20,7 +20,7 @@ class Dashboard extends Component{
 
     componentDidMount() {
 
-        axios.get('http://www.hpb.health.gov.lk/api/get-current-statistical')
+        axios.get('https://www.hpb.health.gov.lk/api/get-current-statistical')
             .then( (response)=> {
                 // handle success
                 console.log(response);
