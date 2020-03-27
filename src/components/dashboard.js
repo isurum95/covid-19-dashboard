@@ -85,7 +85,7 @@ class Dashboard extends Component{
 
         return(
             <div className="container">
-                <strong><p>Last Update : { updatetime }</p></strong>
+                <p>Last Update : { updatetime }</p>
 
                 <div className="row">
                     <div className="col-md-2"></div>
@@ -167,13 +167,6 @@ class Dashboard extends Component{
                 <div>
                     { hospitallist }
                 </div>
-                <footer className="footer">
-                    <div className="container">
-                    <span className="text-muted">Covid-19 Dashboard | Solution by <a href="https://github.com/isurum95">Isuru Madusanka</a> | Data Source: <a
-                        href="https://www.hpb.health.gov.lk/en/">Health Promotion Bureau, Sri Lanka</a></span>
-                    </div>
-                </footer>
-
             </div>
 
         );
