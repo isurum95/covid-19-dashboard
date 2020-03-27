@@ -5,7 +5,8 @@ class Appnav extends Component {
         return (
             <div>
                 <nav className="navbar navbar-dark bg-dark">
-                    <h2 className="navbar-brand">COVID-19 DASHBOARD</h2>
+                    <h3 className="navtext">COVID-19 DASHBOARD</h3>
+                    <p className="navtext">Source: Health Promotion Bureau, Sri Lanka</p>
                 </nav>
             </div>
         );
